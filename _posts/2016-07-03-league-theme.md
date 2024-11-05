@@ -1,198 +1,81 @@
-## - title: Capítulo 7: Medios de transmisión
-- slide-data: ![portada](1/imagen%201.png)  
-- slide-data: González Zenón Fernanda
+---
+title: "CAPITULO 7"
+layout: post
+permalink: /league/
+theme: league
+
+slides:
+ - title: "Medios de Transmisión"
+   slide-data: "Se define en términos generales como cualquier cosa que pueda llevar información desde una fuente a un destino. Por ejemplo: El medio de transmisión para dos personas que conversan es el aire, ya que puede transmitir un mensaje."
+
+ - title: "Categorías de Medios de Transmisión"
+   slide-data: "En telecomunicaciones, los medios de transmisión se pueden dividir en dos grandes categorías: Medios guiados, que incluyen el cable de par trenzado, el cable coaxial y el cable de fibra óptica. Medios no guiados, que es el espacio libre."
+
+ - title: "Medios Guiados"
+   slide-data: "Los medios guiados, como el cable de par trenzado, coaxial y fibra óptica, dirigen las señales dentro de sus límites físicos. Los cables de cobre (par trenzado y coaxial) transportan señales eléctricas, mientras que la fibra óptica transporta señales de luz."
+
+ - title: "Cable de Par Trenzado"
+   slide-data: "Un par trenzado consta de dos conductores (normalmente cobre), cada uno con su propio aislamiento plástico, trenzados entre sí. Uno de los cables se utiliza para llevar señales al receptor y el otro se utiliza únicamente como referencia de tierra."
+
+ - title: "Cable UTP vs STP"
+   slide-data: "El cable de par trenzado más común que se utiliza en las comunicaciones se denomina par trenzado sin blindaje (UTP). El cable STP tiene una lámina metálica o una malla trenzada que recubre cada par de conductores aislados, mejorando la calidad del cable al evitar la penetración de ruido o diafonía."
+
+ - title: "Conectores UTP y STP"
+   slide-data: "El conector UTP más común es el RJ45. Por otro lado, el cable de par trenzado blindado (STP) tiene una cubierta metálica que mejora la calidad al reducir el ruido y la diafonía."
+
+ - title: "Categorías de Par Trenzado"
+   slide-data: "Existen diferentes categorías de cables de par trenzado que se definen por sus capacidades de transmisión de datos, según su diseño y calidad de materiales."
+
+ - title: "Conector RJ45"
+   slide-data: "El RJ45 es un conector codificado que solo se puede insertar de una manera. Es utilizado comúnmente en redes Ethernet."
+
+ - title: "Desempeño de Par Trenzado"
+   slide-data: "La atenuación en los cables de par trenzado aumenta con la frecuencia, medida en decibeles por kilómetro (dB/km). Un cable de par trenzado puede transmitir una amplia gama de frecuencias, siendo común en conexiones telefónicas y redes LAN."
+
+ - title: "Cable Coaxial"
+   slide-data: "El cable coaxial transporta señales de alta frecuencia y tiene un conductor central de cobre, rodeado de una funda aislante y un conductor exterior metálico que protege contra el ruido y completa el circuito."
+
+ - title: "Normas de Cable Coaxial"
+   slide-data: "Los cables coaxiales se clasifican según el número RG, que define especificaciones como el calibre del conductor, tipo de aislante, blindaje y cubierta."
+
+ - title: "Conectores de Cable Coaxial"
+   slide-data: "Entre los conectores coaxiales se encuentran el BNC, para conectar el cable a un dispositivo, el conector BNC T para derivaciones y el terminador BNC para evitar reflexiones de señal."
+
+ - title: "Fibra Óptica"
+   slide-data: "La fibra óptica, hecha de vidrio o plástico, transmite señales como luz y se utiliza en redes troncales por su gran ancho de banda y seguridad contra interferencias electromagnéticas."
+
+ - title: "Modos de Propagación de Fibra"
+   slide-data: "Existen dos modos principales para propagar la luz en fibras ópticas: multimodo y monomodo, cada uno adecuado para diferentes aplicaciones y distancias."
+
+ - title: "Tipos de Fibras Ópticas"
+   slide-data: "Las fibras ópticas se definen por la relación entre el diámetro de su núcleo y el revestimiento, ambos expresados en micrómetros."
+
+ - title: "Conectores de Fibra Óptica"
+   slide-data: "Los conectores SC, ST y MT-RJ se utilizan en fibra óptica para aplicaciones como televisión por cable y conexiones de red."
+
+ - title: "Ventajas y Desventajas de Fibra Óptica"
+   slide-data: "La fibra óptica ofrece mayor ancho de banda, inmunidad a interferencias y seguridad, pero requiere instalación especializada y es más costosa que otros medios."
+
+ - title: "Medios No Guiados (Inalámbricos)"
+   slide-data: "Los medios no guiados transportan ondas electromagnéticas sin conductor físico, utilizando el espacio libre para transmisión. Es el caso de la comunicación inalámbrica."
+
+ - title: "Métodos de Propagación Inalámbrica"
+   slide-data: "Los métodos de propagación incluyen: terrestre (ondas de baja frecuencia), en el cielo (frecuencia media) y en línea de visión (alta frecuencia)."
+
+ - title: "Antena Omnidireccional"
+   slide-data: "Las antenas omnidireccionales envían señales en todas direcciones, siendo común en radiofrecuencia, aunque son susceptibles a interferencias."
+
+ - title: "Ondas de Radio"
+   slide-data: "Las ondas de radio son omnidireccionales y no requieren alineación entre antenas, lo cual facilita su recepción, aunque pueden sufrir interferencias."
+
+ - title: "Microondas"
+   slide-data: "Las microondas son unidireccionales y requieren que las antenas estén alineadas. Se utilizan en aplicaciones de comunicación a largas distancias."
+
+ - title: "Satélites"
+   slide-data: "Los satélites actúan como repetidores en el espacio, utilizando antenas unidireccionales para transmitir señales a largas distancias."
 
 ---
 
-## - title: Concepto
-- slide-data: Un medio de transmisión puede definirse en términos generales como cualquier cosa que pueda transportar información desde una fuente a un destino.  
-En Telecomunicaciones, el medio de transmisión suele ser el espacio libre, un cable metálico o un cable de fibra óptica.
-
----
-
-## - title: Clasificación de medios de transmisión
-- slide-data: Se dividen en guiados y no guiados  
-- slide-data: ![mapa](1/imagen%202.png)
-
----
-
-## - title: Medios Guiados
-- slide-data: Los medios guiados son aquellos que proporcionan un conducto de un dispositivo a otro. Estos incluyen:  
-  - Cables de par trenzado  
-  - Cables coaxiales  
-  - Fibra óptica
-
----
-
-## - title: Cables de par trenzado
-- slide-data: Un par trenzado consta de dos conductores (normalmente de cobre), cada uno con su propio aislamiento plástico, trenzados entre sí.
-- slide-data: ![Ejemplo](1/imagen%203.png)
-
----
-
-## - title: Cable Coaxial
-- slide-data: El cable coaxial transporta señales de rangos de frecuencia más altos que los del cable de par trenzado.  
-En lugar de tener dos cables, el cable coaxial tiene un conductor central de cable sólido o trenzado.
-- slide-data: ![coax](1/imagen%204.png)
-
----
-
-## - title: Normas de cable coaxial
-- slide-data: Los cables coaxiales se clasifican según sus clasificaciones de gobierno de radio (RG). Cada número RG denota un conjunto único de especificaciones físicas.
-- slide-data: ![cable coaxial](1/imagen%2017.png)
-
----
-
-## - title: Fibra Óptica
-- slide-data: Un cable de fibra óptica está hecho de vidrio o plástico y transmite señales en forma de luz. Las fibras ópticas utilizan la reflexión para guiar la luz a través de un canal.
-- slide-data: ![fibra](1/imagen%205.png)
-
----
-
-## - title: Modos de propagación
-- slide-data: La tecnología actual admite dos modos (multimodo y monomodo) para propagar la luz a lo largo de canales ópticos, cada uno de los cuales requiere fibra con diferentes características físicas.
-- slide-data: ![mapa](1/imagen%2013.png)
-
----
-
-## - title: Multimodo
-- slide-data: El modo múltiple se puede implementar en dos formas: índice escalonado o índice graduado.  
-  - En la fibra de índice escalonado multimodo, la densidad del núcleo permanece constante desde el centro hasta los bordes.  
-  - La fibra multimodo de índice graduado disminuye la distorsión de la señal a través del cable.
-
----
-
-## - title: Monomodo
-- slide-data: El modo único utiliza fibra de índice escalonado y una fuente de luz altamente enfocada que limita los haces a un pequeño rango de ángulos, todos cerca de la horizontal.
-
----
-
-## - title: Tamaños de fibra
-- slide-data: Las fibras ópticas se definen por la relación entre el diámetro de su núcleo y el diámetro de su revestimiento, ambos expresados en micrómetros.
-- slide-data: ![tabla](1/imagen%2014.png)
-
----
-
-## - title: Composición del cable
-- slide-data: La cubierta exterior está hecha de PVC o teflón. En el interior de la cubierta hay hilos de Kevlar para reforzar el cable. Debajo del Kevlar hay otro revestimiento de plástico para amortiguar la fibra.
-- slide-data: ![cable](1/imagen%2015.png)
-
----
-
-## - title: Conectores para cables de fibra óptica
-- slide-data: Existen tres tipos de conectores para cables de fibra óptica:
-  - Conector SC  
-  - Conector ST  
-  - Conector MT-RJ
-- slide-data: ![imagen](1/imagen%2016.png)
-
----
-
-- slide-data: El conector de canal de abonado (SC) se utiliza para televisión por cable.  
-El conector de punta recta (ST) se utiliza para conectar el cable a dispositivos de red.  
-MT-RJ es un conector que tiene el mismo tamaño que el RJ45.
-
----
-
-## - title: Ventajas de la fibra óptica
-- slide-data:  
-  - Mayor ancho de banda  
-  - Menor atenuación de señal  
-  - Inmunidad a interferencias electromagnéticas  
-  - Resistencia a materiales corrosivos  
-  - Peso ligero  
-  - Mayor inmunidad al golpeteo  
-
----
-
-## - title: Desventajas de la fibra óptica
-- slide-data:  
-  - Instalación y mantenimiento  
-  - Propagación de luz unidireccional  
-  - Costo  
-
----
-
-## - title: Medios No Guiados
----
-
-## - title: ¿Qué son?
-- slide-data: Los medios no guiados transportan ondas electromagnéticas sin utilizar un conductor físico. Este tipo de comunicación suele denominarse comunicación inalámbrica.
-- slide-data: ![Ejemplo](1/imagen%206.png)
-
----
-
-## - title: Tipos
-- slide-data: Podemos dividir la transmisión inalámbrica en tres grandes grupos:
-  - Ondas de radio  
-  - Microondas  
-  - Ondas infrarojas
-- slide-data: ![mapa](1/imagen%207.png)
-
----
-
-## - title: Bandas
-- slide-data: La sección del espectro electromagnético definida como ondas de radio y microondas se divide en ocho rangos, denominados bandas.
-- slide-data: ![bandas](1/imagen%2012.png)
-
----
-
-## - title: Ondas de radio
-- slide-data: Las ondas electromagnéticas con frecuencias entre 3 kHz y 1 GHz se denominan normalmente ondas de radio, mientras que las ondas con frecuencias entre 1 y 300 GHz se denominan microondas.
-
----
-
-## - title: Antena omnidireccional
-- slide-data: Las ondas de radio utilizan antenas omnidireccionales que envían señales en todas las direcciones. Según la longitud de onda, la potencia y el propósito de la transmisión, podemos tener varios tipos de antenas.
-- slide-data: ![torre](1/imagen%208.png)
-
----
-
-## - title: Aplicaciones
-- slide-data: Las características omnidireccionales de las ondas de radio las hacen útiles para la multidifusión, en la que hay un transmisor pero muchos receptores. Ejemplos: radio AM y FM, televisión, radio marítima, teléfonos inalámbricos y radiobúsqueda.
-
----
-
-## - title: Microondas
-- slide-data: Las ondas electromagnéticas con frecuencias entre 1 y 300 GHz se denominan microondas. Las microondas son unidireccionales y cuando una antena transmite estas ondas pueden tener un enfoque estrecho.
-
----
-
-## - title: Características
-- slide-data:  
-  - Propagación a través de la línea de visión  
-  - No atraviesan paredes  
-  - Banda de microondas es amplia (299 GHz)  
-  - Uso regulado
-
----
-
-## - title: Antena unidireccional
-- slide-data: Las microondas necesitan antenas unidireccionales, como la antena parabólica y la antena de bocina.
-
----
-
-## - title: Antena parabólica
-- slide-data: Basada en la geometría de una parábola, refleja líneas paralelas en un punto común llamado foco.
-- slide-data: ![dish](1/imagen%209.png)
-
----
-
-## - title: Antena de bocina
-- slide-data: Similar a una pala gigante; emite haces estrechos y paralelos.
-- slide-data: ![horn](1/imagen%2010.png)
-
----
-
-## - title: Ondas infrarrojas
-- slide-data: Las ondas infrarrojas (300 GHz a 400 THz) se utilizan para comunicaciones de corto alcance, y no atraviesan paredes.
-- slide-data: ![onda infrarroja](1/imagen%2011.png)
-
----
-
-## - title: Comparación de Medios
-- slide-data:  
-| Tipo          | Ejemplo               | Ventajas                       | Desventajas                  |
-|---------------|-----------------------|--------------------------------|------------------------------|
-| Guiados       | Cables de fibra óptica| Alta velocidad y capacidad     | Costoso y difícil de instalar|
-| No guiados    | Comunicación por radio | Más flexible y fácil de usar   | Menor capacidad y velocidad   |
+{% for slide in page.slides %}
+<section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}"><h1>{{slide.title}}</h1>{{ slide.slide-data }}</section>
+{% endfor %}
