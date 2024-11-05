@@ -61,7 +61,7 @@ slides:
  - title: "Ventajas y Desventajas de Fibra Óptica"
    slide-data: "La fibra óptica ofrece mayor ancho de banda, inmunidad a interferencias y seguridad, pero requiere instalación especializada y es más costosa que otros medios."
 
- - title: "Medios No Guiados (Inalámbricos)"
+ - title: "Medios No Guiados "
    slide-data: "Los medios no guiados transportan ondas electromagnéticas sin conductor físico, utilizando el espacio libre para transmisión. Es el caso de la comunicación inalámbrica."
 
  - title: "Métodos de Propagación Inalámbrica"
@@ -74,7 +74,7 @@ slides:
    slide-data: "Las ondas de radio son omnidireccionales y no requieren alineación entre antenas, lo cual facilita su recepción, aunque pueden sufrir interferencias."
 
  - title: "Microondas"
-   slide-data: "Las microondas son unidireccionales y requieren que las antenas estén alineadas. Se utilizan en aplicaciones de comunicación a largas distancias."
+   slide-data: "Las microondas son unidireccionales y requieren que las antenas estén alineadas."
 
 ---
 
