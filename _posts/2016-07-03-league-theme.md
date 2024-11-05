@@ -31,10 +31,10 @@ slides:
  - title: "Monomodo"
    slide-data: " El modo único utiliza fibra de índice escalonado y una fuente de luz altamente enfocada que limita los haces a un pequeño rango de ángulos."
    
-   - title: "Conectores para cables de fibra óptica"
+ - title: "Conectores para cables de fibra óptica"
    slide-data: "Existen tres tipos de conectores para cables de fibra óptica:Conector ST, Conector SC y Conector Mt-RJ."
 
- title: "Modos de Propagación de Fibra"
+ - title: "Modos de Propagación de Fibra"
    slide-data: "Existen dos modos principales para propagar la luz en fibras ópticas: multimodo y monomodo, cada uno adecuado para diferentes aplicaciones y distancias."
 
  - title: "Tipos de Fibras Ópticas"
