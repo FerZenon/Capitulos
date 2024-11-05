@@ -29,7 +29,7 @@ slides:
    slide-data: " El modo múltiple se puede implementar en dos formas: índice escalonado o índice graduado."
 
  - title: "Monomodo"
-   slide-data: "El modo único utiliza fibra de índice escalonado y una fuente de luz altamente enfocada que limita los haces a un pequeño rango de ángulos, todos cerca de la horizontal."
+   slide-data: " El modo único utiliza fibra de índice escalonado y una fuente de luz altamente enfocada que limita los haces a un pequeño rango de ángulos."
    
    - title: "Conectores para cables de fibra óptica"
    slide-data: "Existen tres tipos de conectores para cables de fibra óptica:Conector ST, Conector SC y Conector Mt-RJ."
